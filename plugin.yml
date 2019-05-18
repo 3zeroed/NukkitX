@@ -1,0 +1,29 @@
+name: NukkitX
+main: Anders\NukkitX\Main
+version: 1.0.0
+api: 3.0.0
+load: POSTWORLD
+author: Anders
+website: https://github.com/Anders233
+description: 假装自己是NukkitX服务端(滑稽)
+commands:
+   about:
+      description: 查看此服务器 及其使用的插件版本
+      permission: NukkitX.Command.about
+   version:
+      description: 查看此服务器 及其使用的插件版本
+      permission: NukkitX.Command.version
+   ver:
+      description: 查看此服务器 及其使用的插件版本
+      permission: NukkitX.Command.ver
+permissions:
+   NukkitX.Command.about:
+      description: 查看此服务器 及其使用的插件版本插件主命令
+      default: true
+   NukkitX.Command.version:
+      description: 查看此服务器 及其使用的插件版本插件主命令
+      default: true
+   NukkitX.Command.ver:
+      description: 查看此服务器 及其使用的插件版本插件主命令
+      default: true
+# 整整齐齐，舒服！
