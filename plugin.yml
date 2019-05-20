@@ -3,8 +3,10 @@ main: Anders\NukkitX\Main
 version: 1.0.0
 api: 3.0.0
 load: POSTWORLD
-author: Anders
-website: https://github.com/Anders233
+authors: 
+- Anders
+- wode490390
+website: https://github.com/Anders233/NukkitX
 description: 假装自己是NukkitX服务端(滑稽)
 commands:
    about:
