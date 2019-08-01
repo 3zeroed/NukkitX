@@ -37,9 +37,6 @@ class Main extends PluginBase {
         ];
         $sLang = $lang[$this->getServer()->getLanguage()->getLang()];
         $this->msg = str_replace("{%5}", ProtocolInfo::CURRENT_PROTOCOL, str_replace("{%4}", ProtocolInfo::MINECRAFT_VERSION, str_replace("{%3}", mt_rand(5, 8), str_replace("{%1}", substr(str_shuffle("0123456789abcdef"), 0, 7), isset($sLang) ? $sLang : $lang["eng"]))));
-        //手动Logger->info("NukkitX by Ander (滑稽)");
-        //鄙人最不喜欢那些在启动，加载，卸载时输出一些无用信息的人
-        //干干净净的控制台多好看，看着多舒心！
     }
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
