@@ -1,4 +1,4 @@
-<h1>NukkitX - 一个<a href="https://github.com/pmmp/PocketMine-MP/">PocektMine-MP</a>插件<img src="https://raw.githubusercontent.com/Anders233/NukkitX/master/logo.png" height="64" width="64" align="left"></img></h1>
+<h1>NukkitX - 一个<a href="https://github.com/pmmp/PocketMine-MP/">PocektMine-MP</a>插件<img src="https://raw.githubusercontent.com/3zeroed/NukkitX/master/logo.png" height="64" width="64" align="left"></img></h1>
 
 ## 这是一个PM插件，没错，PocketMine-MP插件.
 > 一个用来伪装自己是NukkitX服务端的PocketMien-MP插件
